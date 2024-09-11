@@ -1,0 +1,20 @@
+/* src/assets/styles/HomePage.css */
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bracket {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.match {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}

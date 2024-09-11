@@ -1,0 +1,35 @@
+/* src/assets/styles/PlayerList.css */
+
+.player-list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.player-list h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.player-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.player-item:last-child {
+  border-bottom: none;
+}
+
+.player-name {
+  font-weight: bold;
+}
+
+.player-position {
+  color: #666;
+}

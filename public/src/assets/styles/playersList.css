@@ -1,0 +1,22 @@
+
+.player-list {
+  padding: 20px;
+}
+
+.player-list h2 {
+  text-align: center;
+}
+
+.player-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.player-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.player-list span {
+  font-weight: bold;
+}
